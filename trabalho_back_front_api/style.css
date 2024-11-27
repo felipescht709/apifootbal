@@ -1,0 +1,66 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #343a40;
+}
+
+.table {
+    margin-top: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.table thead th {
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.table tbody td {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.modal-content {
+    border-radius: 8px;
+}
+
+.modal-header {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn {
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border: none;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+}
+
+.btn:hover {
+    opacity: 0.9;
+}
+
+.btn-close {
+    background-color: #dc3545;
+    border: none;
+    color: white;
+    border-radius: 25px;
+}
